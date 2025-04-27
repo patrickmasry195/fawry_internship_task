@@ -1,7 +1,8 @@
 # Fawry Internship Task
 
 ## Screenshots
-##Q1
+
+## Q1
 Screenshot of my terminal running the following commands:  
 1) ./mygrep.sh hello testfile.txt
 2) ./mygrep.sh -n hello testfile.txt
