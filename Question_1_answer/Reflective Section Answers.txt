@@ -1,0 +1,16 @@
+Q1:  A breakdown of how your script handles arguments and options.
+A1: 1) Options (-n, -v) are parsed using getopts.
+      2) --help is handled manually because getopts doesn't support long options.
+      3) After parsing options, positional arguments are extracted for search string and file.
+	  4) Error messages are shown for missing inputs or invalid usage.
+=====================================================================
+Q2: A short paragraph: If you were to support regex or -i/-c/-l options, how would your structure change?
+A2: 1) I would extend getopts to handle new flags.
+      2) Move main processing logic into reusable functions.
+      3) For regex, I'd replace simple string matching with [[ "$line" =~ $pattern ]] or use grep -E.
+	  4) I would ensure combinations like -vic are parsed properly and features don't conflict.
+=====================================================================
+Q3: What part of the script was hardest to implement and why?
+A3: 1) Handling combined options (-vn, -nv) was tricky before using getopts.
+      2) Also ensuring correct error messages when users forget search string or file.
+
