@@ -19,3 +19,6 @@ Screenshot support for option parsing using getopts(Bonus):
 
 ![option parsing using getopts](https://github.com/user-attachments/assets/b74f6302-3dd5-4103-b7e2-a562f2da822e)
 
+## Answer for Q2 is in PDF format 
+
+link: [Q2 Answer PDF](https://github.com/patrickmasry195/fawry_internship_task/blob/main/Q2%20answer.pdf)
